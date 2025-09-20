@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Under which event the task was conducted</description>
+    <label>Event</label>
+    <referenceTo>Event__c</referenceTo>
+    <relationshipLabel>Volunteer Tasks</relationshipLabel>
+    <relationshipName>Volunteer_Tasks</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
